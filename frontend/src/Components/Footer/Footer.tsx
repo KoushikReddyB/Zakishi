@@ -9,13 +9,13 @@ const Footer = () => {
         <div data-aos="fade-up"  data-aos-offset="0"  className="w-1/4 sm-mx:w-1/3   xs-mx:w-1/2 xsm-mx:w-full flex flex-col gap-4">
             <div className="flex gap-1 items-center text-bright-sun-400">
                 <IconAnchor className="h-6 w-6" stroke={2.5} />
-                <div className="text-xl font-semibold">JobHook</div>
+                <div className="text-xl font-semibold">Zakishi</div>
             </div>
             <div className="text-sm text-mine-shaft-300">Job portal with user profiles, skill updates, certifications, work experience and admin job postings.</div>
             <div className="flex gap-3 text-bright-sun-400 [&>a]:bg-mine-shaft-900 [&>a]:p-2 [&>a]:rounded-full [&>a]:cursor-pointer hover:[&>a]:bg-mine-shaft-700">
-                <a href="https://www.instagram.com/code.marshal_/"><IconBrandInstagram /></a>
-                <a href="https://t.me/code_Marshal"><IconBrandTelegram /></a>
-                <a href="https://www.youtube.com/@Code.Marshal"><IconBrandYoutube /></a>
+                <a href="https://www.instagram.com/zap_zura"><IconBrandInstagram /></a>
+                <a href="https://t.me/meenakshiyakkala"><IconBrandTelegram /></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><IconBrandYoutube /></a>
             </div>
         </div>
         {
