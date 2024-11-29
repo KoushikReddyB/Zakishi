@@ -2,54 +2,54 @@ const companies = ["Google", "Amazon", "Figma", "Netflix", "Meta", "Microsoft", 
 
 const jobCategory = [
     {
-        "name": "Digital Marketing",
-        "desc": "Promote brands online with marketing strategies",
+        "name": "Network Security",
+        "desc": "Protect networks from unauthorized access and cyber threats",
         "jobs": "1k"
     },
     {
-        "name": "Web Developer",
-        "desc": "Build and maintain websites for clients",
-        "jobs": "2k"
-    },
-    {
-        "name": "Arts & Design",
-        "desc": "Create visual content for branding and media",
-        "jobs": "500"
-    },
-    {
-        "name": "UI-UX Designer",
-        "desc": "Design user interfaces and enhance user experience",
+        "name": "Penetration Testing",
+        "desc": "Identify vulnerabilities by simulating cyberattacks to strengthen defenses",
         "jobs": "800"
     },
     {
-        "name": "Content Writing",
-        "desc": "Write and edit content for various platforms",
-        "jobs": "1.5k"
-    },
-    {
-        "name": "Data Entry",
-        "desc": "Input data into systems accurately and efficiently",
-        "jobs": "1k"
-    },
-    {
-        "name": "Customer Support",
-        "desc": "Assist customers with inquiries and issues",
+        "name": "Cybersecurity Analyst",
+        "desc": "Monitor and analyze security systems to detect and respond to incidents",
         "jobs": "1.2k"
     },
     {
-        "name": "Sales",
-        "desc": "Sell products and services to customers",
+        "name": "Incident Response",
+        "desc": "Respond to and mitigate the impact of cyberattacks and breaches",
         "jobs": "900"
     },
     {
-        "name": "Finance",
-        "desc": "Manage financial records and transactions",
+        "name": "Cloud Security",
+        "desc": "Ensure the security of cloud-based platforms and services",
         "jobs": "700"
     },
     {
-        "name": "Human Resource",
-        "desc": "Recruit, manage, and support company employees",
+        "name": "Information Security",
+        "desc": "Safeguard sensitive information and prevent unauthorized access",
+        "jobs": "1.5k"
+    },
+    {
+        "name": "Security Architecture",
+        "desc": "Design and implement secure IT infrastructures and systems",
         "jobs": "600"
+    },
+    {
+        "name": "Security Software Development",
+        "desc": "Develop applications and software with built-in security features",
+        "jobs": "500"
+    },
+    {
+        "name": "Ethical Hacking",
+        "desc": "Test systems and networks to uncover weaknesses before malicious hackers do",
+        "jobs": "400"
+    },
+    {
+        "name": "Compliance and Governance",
+        "desc": "Ensure that cybersecurity practices adhere to laws, regulations, and standards",
+        "jobs": "300"
     }
 ]
 
@@ -72,22 +72,22 @@ const work = [
 const testimonials = [
     {
         "name": "Shivam Patel",
-        "testimonial": "This job portal made job search easy and quick. Recommended to all job seekers!",
+        "testimonial": "This cybersecurity job portal made finding the right job quick and effortless. Highly recommend it to anyone in the cybersecurity field!",
         "rating": 5
     },
     {
         "name": "Abhishek Kullu",
-        "testimonial": "Found my dream job within a week! The application process was smooth.",
+        "testimonial": "I landed my dream cybersecurity role within a week! The application process was seamless and easy to follow.",
         "rating": 5
     },
     {
         "name": "Swapnil Pandey",
-        "testimonial": "I secured a job offer within days of applying. Exceptional user experience and support.",
+        "testimonial": "I secured a job offer within days of applying. The portal offers an exceptional user experience and excellent support.",
         "rating": 4
     },
     {
         "name": "Pavan Barnana",
-        "testimonial": "Highly efficient job portal with excellent resources. Helped me land a great position.",
+        "testimonial": "This platform is highly efficient and full of valuable resources. It helped me secure a fantastic position in cybersecurity.",
         "rating": 4
     }
 ]

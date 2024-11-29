@@ -6,7 +6,7 @@ const JobCategory = () => {
     return <div className="mt-20 pb-5 overflow-hidden">
         <div data-aos="zoom-out" className="text-4xl  text-center font-semibold  md-mx:text-3xl sm-mx:text-2xl xs-mx:text-xl mb-3 text-mine-shaft-100">Browse <span className="text-bright-sun-400">Job </span>
             Category</div>
-        <div data-aos="zoom-out" className="text-lg sm-mx:text-base xs-mx:text-sm mb-10 mx-auto text-mine-shaft-300 text-center w-1/2 sm-mx:w-11/12">Explore diverse job opportunities tailored to your skills. Start your career journey today!</div>
+        <div data-aos="zoom-out" className="text-lg sm-mx:text-base xs-mx:text-sm mb-10 mx-auto text-mine-shaft-300 text-center w-1/2 sm-mx:w-11/12">Explore Tailored Cybersecurity Opportunities to Match Your Skills. Begin Your Cyber Career Today!</div>
         <Carousel slideSize="22%" slideGap="md" loop className="focus-visible:[&_button]:!outline-none
         [&_button]:!bg-bright-sun-400 [&_button]:!border-none [&_button]:hover:opacity-75 [&_button]:opacity-0 hover:[&_button]:opacity-100 
         "

@@ -4,7 +4,7 @@ import { work } from "../../Data/Data";
 const Working = () => {
     return <div className="mt-20 pb-5 overflow-hidden">
         <div data-aos="zoom-out" className="text-4xl  md-mx:text-3xl sm-mx:text-2xl xs-mx:text-xl text-center font-semibold mb-3 text-mine-shaft-100">How it <span className="text-bright-sun-400">Works</span></div>
-        <div data-aos="zoom-out" className="text-lg mb-10 sm-mx:text-base xs-mx:text-sm mx-auto text-mine-shaft-300 text-center w-1/2 sm-mx:w-11/12">Effortlessly navigate through the process and land your dream job.</div>
+        <div data-aos="zoom-out" className="text-lg mb-10 sm-mx:text-base xs-mx:text-sm mx-auto text-mine-shaft-300 text-center w-1/2 sm-mx:w-11/12">Seamlessly Navigate the Path to Your Ideal Cybersecurity Role.</div>
         <div className="flex px-16 bs-mx:px-10 gap-2 md-mx:flex-col md-mx:px-5 justify-between items-center ">
             <div data-aos="fade-right" className="relative">
                 <img className="w-[30rem]" src="/Working/Girl.png" alt="girl" />
