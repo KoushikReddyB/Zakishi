@@ -1,5 +1,5 @@
 import axios from 'axios';
-const base_url = "https://zakishi.onrender.com/auth/"
+const base_url = "https://zakishi-backend.onrender.com/auth/"
 const loginUser = async (login:any)=> {
     return axios.post(`${base_url}login`, login)
         .then((result:any) => result.data)
