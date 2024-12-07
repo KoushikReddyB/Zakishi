@@ -3,7 +3,7 @@ import { removeUser } from "../Slices/UserSlice";
 import { removeJwt } from "../Slices/JwtSlice";
 
 const axiosInstance = axios.create({
-    baseURL: 'https://zakishi-backend.onrender.com/'
+    baseURL: 'http://localhost:8080'
 });
 
 axiosInstance.interceptors.request.use(
