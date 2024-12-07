@@ -63,7 +63,7 @@ const Login = () => {
         <PasswordInput value={data.password} error={formError.password} name="password" onChange={handleChange} leftSection={<IconLock size={16} />} label="Password" withAsterisk placeholder="Password" />
         <Button loading={loading} onClick={handleSubmit} autoContrast variant="filled">Login</Button>
         <div className="text-center sm-mx:text-sm xs-mx:text-xs">Don't have an account? <span className="text-bright-sun-400 hover:underline cursor-pointer" onClick={()=>{navigate("/signup");setFormError(form) ;setData(form)}}>SignUp</span> </div>
-        <div className="text-bright-sun-400 sm-mx:text-sm xs-mx:text-xs hover:underline cursor-pointer text-center" onClick={open}></div>
+        <div className="text-bright-sun-400 sm-mx:text-sm xs-mx:text-xs hover:underline cursor-pointer text-center" onClick={open}>Forget Password ?</div>
 
     </div>
     <ResetPassword opened={opened} close={close} />
