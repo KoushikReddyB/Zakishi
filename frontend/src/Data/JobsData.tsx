@@ -1,10 +1,7 @@
 import { IconBriefcase, IconMapPin, IconRecharging, IconSearch } from "@tabler/icons-react";
 
 const dropdownData = [
-  {
-    "label": "Job Title",
-    "placeholder": "Enter Job Title",
-    "options": [
+    { title: "Job Title", icon: IconSearch, options: [
       "Cybersecurity Analyst",
       "Cybersecurity Engineer",
       "Information Security Manager",
@@ -96,48 +93,43 @@ const dropdownData = [
       "Blue Team Lead",
       "Cybersecurity Risk Officer",
       "Penetration Testing Team Lead"
-    ]
-  }, 
-    {
-      "label": "Location",
-      "placeholder": "Enter Job Location",
-      "options": [
-        // Major Indian Cities
-        "Delhi", "Mumbai", "Bangalore", "Hyderabad", "Chennai", "Kolkata", "Pune", "Ahmedabad", "Gurgaon", "Noida",
-        "Thiruvananthapuram", "Kochi", "Jaipur", "Lucknow", "Chandigarh", "Indore", "Nagpur", "Bhopal", "Vadodara",
-        "Surat", "Coimbatore", "Patna", "Visakhapatnam", "Vijayawada", "Mysore", "Raipur", "Bhubaneswar", "Ranchi",
-        "Dehradun", "Guwahati", "Ludhiana", "Kanpur", "Agra", "Nashik", "Madurai", "Jodhpur", "Udaipur", "Varanasi",
-        "Amritsar", "Meerut", "Ghaziabad", "Jabalpur", "Aurangabad", "Gwalior", "Rajkot", "Jamshedpur", "Haridwar",
-        "Aligarh", "Faridabad", "Moradabad", "Bareilly", "Mangalore", "Salem", "Tiruchirappalli", "Hubli", "Belgaum",
-        "Kolhapur", "Ajmer", "Shimla", "Solapur", "Rourkela", "Vellore", "Warangal", "Siliguri", "Dhanbad", "Panaji",
-        "Pondicherry", "Shillong", "Aizawl", "Gangtok", "Imphal", "Itanagar", "Kohima", "Dimapur", "Tinsukia",
-        "Tezpur", "Jorhat", "Alwar", "Bikaner", "Kota", "Mount Abu", "Allahabad", "Haldwani", "Nainital", "Port Blair",
-        "Diu", "Daman", "Kavaratti", "Leh", "Srinagar", "Jammu",
-    
-        // Global Cities
-        "New York", "San Francisco", "Los Angeles", "Chicago", "Houston", "Seattle", "Boston", "Austin", "Miami",
-        "Washington D.C.", "Atlanta", "Dallas", "Denver", "San Diego", "Las Vegas", "Orlando", "Philadelphia",
-        "Phoenix", "Portland", "Detroit", "Tampa", "Minneapolis", "Salt Lake City", "Charlotte", "Baltimore",
-        "London", "Manchester", "Birmingham", "Edinburgh", "Glasgow", "Cardiff", "Belfast", "Paris", "Nice", 
-        "Lyon", "Marseille", "Berlin", "Munich", "Hamburg", "Frankfurt", "Cologne", "Dresden", "Stuttgart", 
-        "Brussels", "Antwerp", "Ghent", "Amsterdam", "Rotterdam", "The Hague", "Zurich", "Geneva", "Basel", 
-        "Vienna", "Salzburg", "Innsbruck", "Rome", "Milan", "Naples", "Florence", "Venice", "Lisbon", "Porto", 
-        "Madrid", "Barcelona", "Seville", "Valencia", "Stockholm", "Gothenburg", "Malmo", "Oslo", "Bergen", 
-        "Helsinki", "Copenhagen", "Reykjavik", "Dublin", "Prague", "Warsaw", "Krakow", "Budapest", "Athens", 
-        "Sofia", "Belgrade", "Bucharest", "Zagreb", "Istanbul", "Ankara", "Izmir", "Riyadh", "Jeddah", 
-        "Mecca", "Medina", "Dubai", "Abu Dhabi", "Sharjah", "Doha", "Manama", "Kuwait City", "Muscat",
-        "Amman", "Cairo", "Alexandria", "Johannesburg", "Cape Town", "Durban", "Nairobi", "Accra", "Lagos",
-        "Kinshasa", "Algiers", "Casablanca", "Tunis", "Khartoum", "Addis Ababa", "Bangkok", "Phuket", "Chiang Mai",
-        "Singapore", "Kuala Lumpur", "Jakarta", "Bali", "Manila", "Hanoi", "Ho Chi Minh City", "Yangon", "Tokyo",
-        "Kyoto", "Osaka", "Hiroshima", "Nagoya", "Fukuoka", "Seoul", "Busan", "Incheon", "Shanghai", "Beijing", 
-        "Shenzhen", "Hong Kong", "Taipei", "Macau", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", 
-        "Auckland", "Wellington", "Christchurch", "Vancouver", "Toronto", "Montreal", "Calgary", "Ottawa", 
-        "Mexico City", "Guadalajara", "Cancun", "Buenos Aires", "Santiago", "Bogota", "Lima", "Rio de Janeiro", 
-        "São Paulo", "Montevideo", "Caracas", "Havana", "Panama City", "San Jose (Costa Rica)", "Kingston", 
-        "Port-au-Prince", "Port of Spain", "Moscow", "St. Petersburg", "Kazan", "Novosibirsk", "Ekaterinburg", 
-        "Vladivostok", "Ulaanbaatar", "Helsinki", "Tallinn", "Riga", "Vilnius", "Bratislava", "Luxembourg City"
-      ]
-    },  
+    ] },
+    { title: "Location", icon: IconMapPin, options: [
+      // Major Indian Cities
+      "Delhi", "Mumbai", "Bangalore", "Hyderabad", "Chennai", "Kolkata", "Pune", "Ahmedabad", "Gurgaon", "Noida",
+      "Thiruvananthapuram", "Kochi", "Jaipur", "Lucknow", "Chandigarh", "Indore", "Nagpur", "Bhopal", "Vadodara",
+      "Surat", "Coimbatore", "Patna", "Visakhapatnam", "Vijayawada", "Mysore", "Raipur", "Bhubaneswar", "Ranchi",
+      "Dehradun", "Guwahati", "Ludhiana", "Kanpur", "Agra", "Nashik", "Madurai", "Jodhpur", "Udaipur", "Varanasi",
+      "Amritsar", "Meerut", "Ghaziabad", "Jabalpur", "Aurangabad", "Gwalior", "Rajkot", "Jamshedpur", "Haridwar",
+      "Aligarh", "Faridabad", "Moradabad", "Bareilly", "Mangalore", "Salem", "Tiruchirappalli", "Hubli", "Belgaum",
+      "Kolhapur", "Ajmer", "Shimla", "Solapur", "Rourkela", "Vellore", "Warangal", "Siliguri", "Dhanbad", "Panaji",
+      "Pondicherry", "Shillong", "Aizawl", "Gangtok", "Imphal", "Itanagar", "Kohima", "Dimapur", "Tinsukia",
+      "Tezpur", "Jorhat", "Alwar", "Bikaner", "Kota", "Mount Abu", "Allahabad", "Haldwani", "Nainital", "Port Blair",
+      "Diu", "Daman", "Kavaratti", "Leh", "Srinagar", "Jammu",
+  
+      // Global Cities
+      "New York", "San Francisco", "Los Angeles", "Chicago", "Houston", "Seattle", "Boston", "Austin", "Miami",
+      "Washington D.C.", "Atlanta", "Dallas", "Denver", "San Diego", "Las Vegas", "Orlando", "Philadelphia",
+      "Phoenix", "Portland", "Detroit", "Tampa", "Minneapolis", "Salt Lake City", "Charlotte", "Baltimore",
+      "London", "Manchester", "Birmingham", "Edinburgh", "Glasgow", "Cardiff", "Belfast", "Paris", "Nice", 
+      "Lyon", "Marseille", "Berlin", "Munich", "Hamburg", "Frankfurt", "Cologne", "Dresden", "Stuttgart", 
+      "Brussels", "Antwerp", "Ghent", "Amsterdam", "Rotterdam", "The Hague", "Zurich", "Geneva", "Basel", 
+      "Vienna", "Salzburg", "Innsbruck", "Rome", "Milan", "Naples", "Florence", "Venice", "Lisbon", "Porto", 
+      "Madrid", "Barcelona", "Seville", "Valencia", "Stockholm", "Gothenburg", "Malmo", "Oslo", "Bergen", 
+      "Helsinki", "Copenhagen", "Reykjavik", "Dublin", "Prague", "Warsaw", "Krakow", "Budapest", "Athens", 
+      "Sofia", "Belgrade", "Bucharest", "Zagreb", "Istanbul", "Ankara", "Izmir", "Riyadh", "Jeddah", 
+      "Mecca", "Medina", "Dubai", "Abu Dhabi", "Sharjah", "Doha", "Manama", "Kuwait City", "Muscat",
+      "Amman", "Cairo", "Alexandria", "Johannesburg", "Cape Town", "Durban", "Nairobi", "Accra", "Lagos",
+      "Kinshasa", "Algiers", "Casablanca", "Tunis", "Khartoum", "Addis Ababa", "Bangkok", "Phuket", "Chiang Mai",
+      "Singapore", "Kuala Lumpur", "Jakarta", "Bali", "Manila", "Hanoi", "Ho Chi Minh City", "Yangon", "Tokyo",
+      "Kyoto", "Osaka", "Hiroshima", "Nagoya", "Fukuoka", "Seoul", "Busan", "Incheon", "Shanghai", "Beijing", 
+      "Shenzhen", "Hong Kong", "Taipei", "Macau", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", 
+      "Auckland", "Wellington", "Christchurch", "Vancouver", "Toronto", "Montreal", "Calgary", "Ottawa", 
+      "Mexico City", "Guadalajara", "Cancun", "Buenos Aires", "Santiago", "Bogota", "Lima", "Rio de Janeiro", 
+      "São Paulo", "Montevideo", "Caracas", "Havana", "Panama City", "San Jose (Costa Rica)", "Kingston", 
+      "Port-au-Prince", "Port of Spain", "Moscow", "St. Petersburg", "Kazan", "Novosibirsk", "Ekaterinburg", 
+      "Vladivostok", "Ulaanbaatar", "Helsinki", "Tallinn", "Riga", "Vilnius", "Bratislava", "Luxembourg City"
+    ] },
     { title: "Experience", icon: IconBriefcase, options: ['Entry Level', 'Intermediate', 'Expert'] },
     { title: "Job Type", icon: IconRecharging, options: ['Full Time', 'Part Time', 'Contract', 'Freelance', 'Internship'] }
 ];
