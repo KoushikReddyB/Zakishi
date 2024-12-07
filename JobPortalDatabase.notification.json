@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$numberLong": "1"
+  },
+  "userId": {
+    "$numberLong": "1"
+  },
+  "message": "Password Reset Successfull",
+  "action": "Password Reset",
+  "status": "READ",
+  "timestamp": {
+    "$date": "2024-11-29T06:37:14.800Z"
+  },
+  "_class": "com.jobportal.entity.Notification"
+},
+{
+  "_id": {
+    "$numberLong": "2"
+  },
+  "userId": {
+    "$numberLong": "1"
+  },
+  "message": "Job Posted Successfully for Privacy Engineer at Sophos",
+  "action": "Job Posted",
+  "route": "/posted-jobs/1",
+  "status": "READ",
+  "timestamp": {
+    "$date": "2024-11-30T05:35:09.443Z"
+  },
+  "_class": "com.jobportal.entity.Notification"
+},
+{
+  "_id": {
+    "$numberLong": "3"
+  },
+  "userId": {
+    "$numberLong": "1"
+  },
+  "message": "Job Posted Successfully for  at Microsoft",
+  "action": "Job Posted",
+  "route": "/posted-jobs/2",
+  "status": "UNREAD",
+  "timestamp": {
+    "$date": "2024-12-07T09:49:49.505Z"
+  },
+  "_class": "com.jobportal.entity.Notification"
+}]

@@ -1,0 +1,16 @@
+[{
+  "_id": "profiles",
+  "seq": 4
+},
+{
+  "_id": "notification",
+  "seq": 3
+},
+{
+  "_id": "users",
+  "seq": 4
+},
+{
+  "_id": "jobs",
+  "seq": 2
+}]
