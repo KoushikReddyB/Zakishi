@@ -12,6 +12,8 @@ const HomePage=()=>{
     return (
         <div className="min-h-[90vh] bg-mine-shaft-950 font-['poppins']">
             <DreamJob/>
+            <Companies/>
+            <JobCategory/>
             <Working/>
             <Testimonials/>
             <Subscribe/>
