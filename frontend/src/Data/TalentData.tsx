@@ -2,8 +2,7 @@ import { IconBriefcase, IconMapPin, IconRecharging, IconSearch } from "@tabler/i
 
 const searchFields=[
   {
-    "label": "Job Title",
-    "placeholder": "Enter Job Title",
+    title: "Job Title", icon: IconSearch,
     "options": [
       "Cybersecurity Analyst",
       "Cybersecurity Engineer",
@@ -98,8 +97,7 @@ const searchFields=[
       "Penetration Testing Team Lead"
     ] },
     {
-      "label": "Location",
-      "placeholder": "Enter Job Location",
+      title: "Location", icon: IconMapPin,
       "options": [
         // Major Indian Cities
         "Delhi", "Mumbai", "Bangalore", "Hyderabad", "Chennai", "Kolkata", "Pune", "Ahmedabad", "Gurgaon", "Noida",
@@ -138,8 +136,7 @@ const searchFields=[
       ]
      },
      {
-      "title": "Skills",
-      "icon": "IconRecharging",
+      title: "Skills", icon: IconRecharging,
       "options": [
         // Core Cybersecurity Skills
         "Network Security",
